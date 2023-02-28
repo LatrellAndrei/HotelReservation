@@ -14,6 +14,7 @@ h3 {
 </style>
 </head>
 <body>
+  @include("partials.header")
     <h3>Room Data</h3>
     <table class="table">
   <thead class="thead-dark">
@@ -42,9 +43,8 @@ h3 {
        @endforeach
   </tbody>
 </table>
-</body>
-</html>
+
    
- 
+@include("partials.footer")
       
 
