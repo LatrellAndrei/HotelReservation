@@ -3,15 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
 
 class UserController extends Controller
 {
     public function index()
     {
-        return 'Hello UserController';
+        $data = User:: all();
+        return view('user.index',['users' => $data]);
     }
-
-    public function show($id) {
+        
+    /*public function show($id) {
       
         $data=array( 
         "id"=> $id,
@@ -22,5 +24,6 @@ class UserController extends Controller
       //return view('user',['data'=>$data]);
       return view('user', $data);
     }
+    */
 } 
 
