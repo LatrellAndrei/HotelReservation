@@ -7,16 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-<ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-</ul>
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="https://1000logos.net/wp-content/uploads/2020/10/Hyatt-Regency-Logo.png" width="150" height="90" class="d-inline-block align-top" alt="">
+    Welcome to Hotel Reservation! 
+  </a>
+</nav>
 </body>
 </html>
