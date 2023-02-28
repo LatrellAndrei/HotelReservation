@@ -18,13 +18,13 @@ h3 {
     <h3>User Data</h3>
 
     
-    <table class="table table-striped">
-  <thead>
+    <table class="table">
+  <thead class="thead-dark">
     <tr>
       <th scope="col">Id</th>
       <th scope="col">Last Name</th>
       <th scope="col">First Name</th>
-      <th scope="col">email</th>
+      <th scope="col">Email</th>
       <th scope="col">Address</th>
       <th scope="col">Contact Number</th>
     </tr>
